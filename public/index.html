@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Uptime Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="container">
+    <h1>Website Uptime Monitor</h1>
+    <p class="subtitle">Check website availability and response time.</p>
+
+    <form id="checkForm">
+        <input
+            type="url"
+            id="websiteUrl"
+            placeholder="https://example.com"
+            required
+        >
+        <button type="submit" id="checkButton">Check Status</button>
+    </form>
+
+    <div id="result" class="result hidden" aria-live="polite"></div>
+</main>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
